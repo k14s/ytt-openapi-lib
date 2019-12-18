@@ -1,0 +1,4 @@
+#@ load("openapi.star", "process")
+
+#@ for/end x in process("index.yml"):
+--- #@ x

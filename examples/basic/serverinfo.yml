@@ -1,0 +1,9 @@
+---
+description: "Example ServerInformation response."
+value:
+  couchdb: "Welcome"
+  features:
+    - "scheduler"
+  vendor:
+    version: 7410
+  version: "2.1.1"

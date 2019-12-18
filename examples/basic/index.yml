@@ -1,0 +1,19 @@
+---
+components:
+  examples:
+    ServerInformation:
+      $ref: "serverinfo.yml"
+paths:
+  /:
+    get:
+      description: "BlaBlaBla"
+      operationId: "getServerInformation"
+      responses:
+        "200":
+          $ref: "#/components/examples/ServerInformation"
+      summary: "Get information about the server instance."
+---
+components:
+  examples:
+    ServerInformation:
+      $ref: "serverinfo.yml"
